@@ -1,4 +1,3 @@
-```markdown
 # Molten Walk – Speculative Execution Attack
 
 ![Language](https://img.shields.io/badge/language-C-blue)
