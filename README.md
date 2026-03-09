@@ -29,3 +29,13 @@ A probe buffer is allocated:
 
 ```c
 buffer[256 * 4096];
+Each possible byte value maps to a separate cache line.
+
+During speculative execution, the secret value is used as an index:
+
+```c
+buffer[secret_byte * 4096];
+
+If this memory is accessed transiently, the corresponding cache line becomes hot.
+
+Later, the attacker measures access times to identify the cached entry and recover the secret byte.
