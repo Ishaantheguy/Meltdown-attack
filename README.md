@@ -1,5 +1,3 @@
-I'll extract the clean, properly-formatted README code from the content you've provided. Here's the complete, ready-to-use README.md:
-
 ```markdown
 # Molten Walk – Speculative Execution Attack
 
